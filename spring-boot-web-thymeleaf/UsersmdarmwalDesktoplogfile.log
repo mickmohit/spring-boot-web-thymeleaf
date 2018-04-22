@@ -1,0 +1,499 @@
+2018-04-05 13:42:25.793  INFO 12128 --- [Thread-10] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41d20e67: startup date [Wed Apr 04 16:28:29 IST 2018]; root of context hierarchy
+2018-04-05 13:42:25.816  INFO 12128 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:42:26.211  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:42:26.212  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:42:26.215  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6336d093: startup date [Thu Apr 05 13:42:26 IST 2018]; root of context hierarchy
+2018-04-05 13:42:26.503  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:42:26.504  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:42:26.505  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:42:27.208  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:42:27.217  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1002 ms
+2018-04-05 13:42:27.242  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:42:27.243  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:42:27.243  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:42:27.243  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:42:27.243  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:42:27.298  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6336d093: startup date [Thu Apr 05 13:42:26 IST 2018]; root of context hierarchy
+2018-04-05 13:42:27.304  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:42:27.306  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:42:27.312  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:42:27.321  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:42:27.321  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:42:27.335  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:42:27.388  INFO 12128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-05 13:42:27.437  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-05 13:42:27.568  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-05 13:42:27.569  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Started SpringBootWebThymeleafApplication in 1.392 seconds (JVM running for 76484.769)
+2018-04-05 13:42:27.571  INFO 12128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-04-05 13:42:28.907  INFO 12128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 13:42:28.918  INFO 12128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 13:42:28.920  INFO 12128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-04-05 13:45:15.647  INFO 12128 --- [Thread-16] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6336d093: startup date [Thu Apr 05 13:42:26 IST 2018]; root of context hierarchy
+2018-04-05 13:45:15.654  INFO 12128 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:45:16.015  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:45:16.016  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:45:16.018  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f7263cd: startup date [Thu Apr 05 13:45:16 IST 2018]; root of context hierarchy
+2018-04-05 13:45:16.357  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:45:16.360  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:45:16.361  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:45:16.382  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:45:16.383  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 365 ms
+2018-04-05 13:45:16.405  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:45:16.405  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:45:16.405  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:45:16.406  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:45:16.406  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:45:16.470  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f7263cd: startup date [Thu Apr 05 13:45:16 IST 2018]; root of context hierarchy
+2018-04-05 13:45:16.485  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:45:16.490  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:45:16.511  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:45:16.525  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:45:16.526  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:45:16.541  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:45:16.558  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:45:16.602  INFO 12128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-05 13:45:16.711  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-05 13:45:16.881  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-05 13:45:16.882  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Started SpringBootWebThymeleafApplication in 0.913 seconds (JVM running for 76653.873)
+2018-04-05 13:45:16.884  INFO 12128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-04-05 13:46:09.306  INFO 12128 --- [Thread-22] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f7263cd: startup date [Thu Apr 05 13:45:16 IST 2018]; root of context hierarchy
+2018-04-05 13:46:09.314  INFO 12128 --- [Thread-22] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:46:09.578  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:46:09.579  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:46:09.581  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7d11b021: startup date [Thu Apr 05 13:46:09 IST 2018]; root of context hierarchy
+2018-04-05 13:46:09.871  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:46:09.872  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:46:09.872  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:46:09.888  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:46:09.888  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 307 ms
+2018-04-05 13:46:09.905  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:46:09.906  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:46:09.906  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:46:09.906  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:46:09.906  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:46:09.956  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7d11b021: startup date [Thu Apr 05 13:46:09 IST 2018]; root of context hierarchy
+2018-04-05 13:46:09.961  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:46:09.962  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:46:09.969  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:46:09.974  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:46:09.974  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:46:09.982  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:46:09.990  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:46:10.014  INFO 12128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-05 13:46:10.066  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-05 13:46:10.182  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-05 13:46:10.182  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Started SpringBootWebThymeleafApplication in 0.631 seconds (JVM running for 76707.107)
+2018-04-05 13:46:10.185  INFO 12128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-04-05 13:46:14.147  INFO 12128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-05 13:46:14.152  INFO 12128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-05 13:46:14.161  INFO 12128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-04-05 13:50:04.505  INFO 12128 --- [Thread-28] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7d11b021: startup date [Thu Apr 05 13:46:09 IST 2018]; root of context hierarchy
+2018-04-05 13:50:04.526  INFO 12128 --- [Thread-28] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:50:04.801  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:50:04.801  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:50:04.804  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5523c849: startup date [Thu Apr 05 13:50:04 IST 2018]; root of context hierarchy
+2018-04-05 13:50:05.077  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:50:05.077  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:50:05.078  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:50:05.092  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:50:05.093  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 289 ms
+2018-04-05 13:50:05.107  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:50:05.108  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:50:05.108  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:50:05.108  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:50:05.108  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:50:05.158  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5523c849: startup date [Thu Apr 05 13:50:04 IST 2018]; root of context hierarchy
+2018-04-05 13:50:05.164  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:50:05.165  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:50:05.174  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:50:05.182  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:50:05.182  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:50:05.192  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:50:05.200  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:50:05.233  WARN 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\templates' must exist and must be a directory
+2018-04-05 13:50:05.233  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:50:05.234  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-05 13:50:05.240  INFO 12128 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-05 13:50:05.252 ERROR 12128 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.example.springbootwebthymeleaf.SpringBootWebThymeleafApplication.main(SpringBootWebThymeleafApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\templates' must exist and must be a directory
+	at org.springframework.util.Assert.isTrue(Assert.java:116) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher.addSourceFolder(FileSystemWatcher.java:128) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.newFileSystemWatcher(LocalDevToolsAutoConfiguration.java:157) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher.<init>(ClassPathFileSystemWatcher.java:61) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.classPathFileSystemWatcher(LocalDevToolsAutoConfiguration.java:118) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.CGLIB$classPathFileSystemWatcher$1(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d$$FastClassBySpringCGLIB$$8dfc7bba.invoke(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.classPathFileSystemWatcher(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 24 common frames omitted
+
+2018-04-05 13:50:57.923  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:50:57.924  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:50:57.926  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7de9471f: startup date [Thu Apr 05 13:50:57 IST 2018]; root of context hierarchy
+2018-04-05 13:50:58.186  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:50:58.187  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:50:58.187  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:50:58.202  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:50:58.203  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 277 ms
+2018-04-05 13:50:58.214  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:50:58.214  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:50:58.215  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:50:58.215  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:50:58.215  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:50:58.254  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7de9471f: startup date [Thu Apr 05 13:50:57 IST 2018]; root of context hierarchy
+2018-04-05 13:50:58.258  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:50:58.259  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:50:58.265  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:50:58.269  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:50:58.270  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:50:58.276  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:50:58.282  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:50:58.298  WARN 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\srcmainresources\templates' must exist and must be a directory
+2018-04-05 13:50:58.299  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:50:58.299  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-05 13:50:58.304  INFO 12128 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-05 13:50:58.305 ERROR 12128 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\srcmainresources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.example.springbootwebthymeleaf.SpringBootWebThymeleafApplication.main(SpringBootWebThymeleafApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\srcmainresources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\srcmainresources\templates' must exist and must be a directory
+	at org.springframework.util.Assert.isTrue(Assert.java:116) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher.addSourceFolder(FileSystemWatcher.java:128) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.newFileSystemWatcher(LocalDevToolsAutoConfiguration.java:157) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher.<init>(ClassPathFileSystemWatcher.java:61) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.classPathFileSystemWatcher(LocalDevToolsAutoConfiguration.java:118) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.CGLIB$classPathFileSystemWatcher$1(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d$$FastClassBySpringCGLIB$$8dfc7bba.invoke(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.classPathFileSystemWatcher(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 24 common frames omitted
+
+2018-04-05 13:51:09.823  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:51:09.824  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:51:09.827  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@637d2e37: startup date [Thu Apr 05 13:51:09 IST 2018]; root of context hierarchy
+2018-04-05 13:51:10.075  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:51:10.076  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:51:10.076  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:51:10.090  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:51:10.091  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 264 ms
+2018-04-05 13:51:10.102  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:51:10.102  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:51:10.102  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:51:10.103  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:51:10.103  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:51:10.143  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@637d2e37: startup date [Thu Apr 05 13:51:09 IST 2018]; root of context hierarchy
+2018-04-05 13:51:10.147  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:51:10.149  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:51:10.154  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:51:10.158  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:10.158  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:10.164  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:10.170  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:51:10.185  WARN 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+2018-04-05 13:51:10.185  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:51:10.185  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-05 13:51:10.191  INFO 12128 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-05 13:51:10.192 ERROR 12128 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.example.springbootwebthymeleaf.SpringBootWebThymeleafApplication.main(SpringBootWebThymeleafApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.util.Assert.isTrue(Assert.java:116) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher.addSourceFolder(FileSystemWatcher.java:128) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.newFileSystemWatcher(LocalDevToolsAutoConfiguration.java:157) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher.<init>(ClassPathFileSystemWatcher.java:61) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.classPathFileSystemWatcher(LocalDevToolsAutoConfiguration.java:118) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.CGLIB$classPathFileSystemWatcher$1(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d$$FastClassBySpringCGLIB$$8dfc7bba.invoke(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.classPathFileSystemWatcher(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 24 common frames omitted
+
+2018-04-05 13:51:28.699  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:51:28.700  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:51:28.702  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40e53d90: startup date [Thu Apr 05 13:51:28 IST 2018]; root of context hierarchy
+2018-04-05 13:51:28.935  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:51:28.936  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:51:28.936  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:51:28.951  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:51:28.952  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 251 ms
+2018-04-05 13:51:28.967  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:51:28.967  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:51:28.967  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:51:28.967  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:51:28.967  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:51:29.016  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@40e53d90: startup date [Thu Apr 05 13:51:28 IST 2018]; root of context hierarchy
+2018-04-05 13:51:29.022  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:51:29.025  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:51:29.033  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:51:29.040  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:29.040  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:29.050  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:29.057  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:51:29.072  WARN 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\src\main\resources\templates' must exist and must be a directory
+2018-04-05 13:51:29.072  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:51:29.073  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-05 13:51:29.079  INFO 12128 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-05 13:51:29.080 ERROR 12128 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.example.springbootwebthymeleaf.SpringBootWebThymeleafApplication.main(SpringBootWebThymeleafApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Folder 'C:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.util.Assert.isTrue(Assert.java:116) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher.addSourceFolder(FileSystemWatcher.java:128) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.newFileSystemWatcher(LocalDevToolsAutoConfiguration.java:157) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher.<init>(ClassPathFileSystemWatcher.java:61) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.classPathFileSystemWatcher(LocalDevToolsAutoConfiguration.java:118) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.CGLIB$classPathFileSystemWatcher$1(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d$$FastClassBySpringCGLIB$$8dfc7bba.invoke(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.classPathFileSystemWatcher(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 24 common frames omitted
+
+2018-04-05 13:51:47.591  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 13:51:47.592  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 13:51:47.594  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cfaab26: startup date [Thu Apr 05 13:51:47 IST 2018]; root of context hierarchy
+2018-04-05 13:51:47.883  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 13:51:47.884  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 13:51:47.884  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 13:51:47.903  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2018-04-05 13:51:47.904  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 310 ms
+2018-04-05 13:51:47.921  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 13:51:47.921  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 13:51:47.922  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 13:51:47.922  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 13:51:47.922  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 13:51:47.976  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cfaab26: startup date [Thu Apr 05 13:51:47 IST 2018]; root of context hierarchy
+2018-04-05 13:51:47.983  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 13:51:47.985  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 13:51:47.993  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 13:51:48.001  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:48.001  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:48.008  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 13:51:48.014  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 13:51:48.034  WARN 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+2018-04-05 13:51:48.034  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-05 13:51:48.035  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-04-05 13:51:48.040  INFO 12128 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-04-05 13:51:48.042 ERROR 12128 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'classPathFileSystemWatcher' defined in class path resource [org/springframework/boot/devtools/autoconfigure/LocalDevToolsAutoConfiguration$RestartConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234) [spring-boot-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at com.example.springbootwebthymeleaf.SpringBootWebThymeleafApplication.main(SpringBootWebThymeleafApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher]: Factory method 'classPathFileSystemWatcher' threw exception; nested exception is java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Folder 'C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\classpath:\src\main\resources\templates' must exist and must be a directory
+	at org.springframework.util.Assert.isTrue(Assert.java:116) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.filewatch.FileSystemWatcher.addSourceFolder(FileSystemWatcher.java:128) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.newFileSystemWatcher(LocalDevToolsAutoConfiguration.java:157) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher.<init>(ClassPathFileSystemWatcher.java:61) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.classPathFileSystemWatcher(LocalDevToolsAutoConfiguration.java:118) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.CGLIB$classPathFileSystemWatcher$1(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d$$FastClassBySpringCGLIB$$8dfc7bba.invoke(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration$$EnhancerBySpringCGLIB$$3cb7b50d.classPathFileSystemWatcher(<generated>) ~[spring-boot-devtools-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_152]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_152]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_152]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	... 24 common frames omitted
+
+2018-04-05 14:15:40.928  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Starting SpringBootWebThymeleafApplication on MDARMWAL2L1 with PID 12128 (C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf\target\classes started by mdarmwal in C:\Mohit_D\practise_metadata\Practise_springBoot\spring-boot-web-thymeleaf)
+2018-04-05 14:15:40.929  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : No active profile set, falling back to default profiles: default
+2018-04-05 14:15:40.931  INFO 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45d51637: startup date [Thu Apr 05 14:15:40 IST 2018]; root of context hierarchy
+2018-04-05 14:15:41.293  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-04-05 14:15:41.294  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-05 14:15:41.295  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-04-05 14:15:41.319  INFO 12128 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2018-04-05 14:15:41.320  INFO 12128 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 389 ms
+2018-04-05 14:15:41.346  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-05 14:15:41.346  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-05 14:15:41.347  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-05 14:15:41.347  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-05 14:15:41.347  INFO 12128 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-05 14:15:41.435  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45d51637: startup date [Thu Apr 05 14:15:40 IST 2018]; root of context hierarchy
+2018-04-05 14:15:41.443  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello/message],methods=[GET]}" onto public java.lang.String com.example.springbootwebthymeleaf.Controller.HelloResource.welcome(java.util.Map<java.lang.String, java.lang.Object>)
+2018-04-05 14:15:41.448  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-05 14:15:41.456  INFO 12128 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-05 14:15:41.463  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:15:41.463  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:15:41.472  INFO 12128 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-05 14:15:41.479  WARN 12128 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-04-05 14:15:41.510  INFO 12128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-04-05 14:15:41.560  INFO 12128 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-05 14:15:41.839  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-04-05 14:15:41.840  INFO 12128 --- [restartedMain] c.e.s.SpringBootWebThymeleafApplication  : Started SpringBootWebThymeleafApplication in 0.941 seconds (JVM running for 78478.621)
+2018-04-05 14:15:41.842  INFO 12128 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2018-04-05 14:19:40.038  INFO 12128 --- [Thread-34] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45d51637: startup date [Thu Apr 05 14:15:40 IST 2018]; root of context hierarchy
+2018-04-05 14:19:40.045  INFO 12128 --- [Thread-34] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
